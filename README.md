@@ -42,14 +42,3 @@ This repository is still under development and I will continue to add more featu
 * Mongo DB
 * React JS
 * Apollo Client
-
-### Configuration
-
-In order to test it by yourself you should provide a config.js file with your custom Mongo DB credentials and a secret key to encode your auth token:
-
-```js
-module.exports = {
-    MONGO_DB: "mongodb+srv...YOUR_MONGODB_CREDENTIALS_AND_DATABASE_HERE",
-    SECRET_KEY: "YOUR_AUTH_TOKEN_KEY_GENERATOR_HERE"
-}
-```
